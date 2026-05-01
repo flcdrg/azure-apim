@@ -12,7 +12,7 @@ param environment string
 param projectName string = 'stack'
 
 @description('Organization prefix for resource naming')
-param orgPrefix string = 'acme'
+param orgPrefix string = ''
 
 @description('Storage account SKU')
 param storageSkuName string = 'Standard_LRS'
