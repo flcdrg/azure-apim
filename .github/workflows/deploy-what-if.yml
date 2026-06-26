@@ -28,7 +28,7 @@ jobs:
       bicep-validation: ${{ steps.validate.outcome }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Validate Bicep syntax
         id: validate
@@ -51,7 +51,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Generate deployment name with timestamp
         id: deployment-name
